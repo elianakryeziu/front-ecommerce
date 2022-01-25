@@ -1,0 +1,29 @@
+.registerPage {
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+}
+.registerForm {
+    padding: 70px;
+    background-color: rgb(99, 97, 97);
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+.registerForm input {
+    margin: 7px;
+}
+.btn {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    padding: 5px 30px;
+    width: 60%;
+}
+.registerForm button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    font-weight: bold;
+}

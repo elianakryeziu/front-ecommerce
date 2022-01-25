@@ -1,0 +1,75 @@
+.navbarTop {
+    background-color: white;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttonAccount {
+    border: 1px dashed black;
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+}
+.navbar {
+    color: white;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.heartIcon {
+    color: red;
+    margin-left: 5px;
+    transform: rotate(30deg);
+}
+.search {
+    width: 300px;
+    border: 2px dashed white;
+    border-radius: 2px;
+}
+.loginRegisterLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+.cartIcon {
+    color: white;
+    font-size: 30px;
+}
+
+.loginRegisterLinks span {
+    padding: 5px;
+    color: white;
+}
+.loginRegisterLinks h6 {
+    color: white;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.loginRegisterLinks a {
+    color: white;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.loginRegisterLinks a:hover {
+    color: rgb(112, 109, 109);
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.menu {
+    background-color: black;
+    justify-content: end;
+}
+.menu span {
+    color: white;
+    padding: 10px;
+}
+.menu span:hover {
+    background-color: rgb(68, 67, 67);
+    padding: 10px;
+    border-radius: 2px;
+}
